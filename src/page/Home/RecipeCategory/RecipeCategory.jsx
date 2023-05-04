@@ -33,4 +33,4 @@ const RecipeCategory = () => {
   );
 };
 
-
+export default RecipeCategory;
