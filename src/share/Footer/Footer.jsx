@@ -47,11 +47,13 @@ const Footer = () => {
           <h1 className="text-lg title-text font-bold text-white mb-4">
             CONTACT US
           </h1>
-
-        </ul>
+          <ul className="text-zinc-500 leading-7">
+            <li>Gulsan,Dhaka </li>
+            <li>Cell:013 000 999</li>
+          </ul>
+        </div>
       </div>
-    </div>
-    </footer >
+    </footer>
   );
 };
 
