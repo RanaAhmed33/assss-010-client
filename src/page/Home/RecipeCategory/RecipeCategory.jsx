@@ -12,7 +12,10 @@ const RecipeCategory = () => {
         <img className="rounded-full" src={f1} alt="" />
         <h1 className="text-lg font-bold text-center">Appetizers</h1>
       </div>
-
+      <div className="rounded-full space-y-2 ">
+        <img className="rounded-full " src={f2} alt="" />
+        <h1 className="text-lg font-bold text-center">Vegetable</h1>
+      </div>
       <div className="rounded-full space-y-2">
         <img className="rounded-full " src={f3} alt="" />
         <h1 className="text-lg font-bold text-center">Coconut</h1>
@@ -30,4 +33,4 @@ const RecipeCategory = () => {
   );
 };
 
-export default RecipeCategory;
+
