@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="grid md:grid-cols-3 lg:grid-cols-5 bg-black p-12 gap-5 mt-10">
         <div>
           <h1 className="text-3xl font-bold text-red-600 mb-4 -mt-2">
-            <h1> MASTER CHEF</h1>
+            MASTER CHEF
           </h1>
           <p className="text-zinc-200 mb-6">
             We provide best and fresh foods for our respectable customers
