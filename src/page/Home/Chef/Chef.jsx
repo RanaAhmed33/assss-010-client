@@ -17,9 +17,6 @@ const Chef = ({ chef }) => {
           <img src={picture} alt="Chef" />
         </figure>
       </LazyLoad>
-      {/* <figure>
-        <img src={picture} alt="Chef" />
-      </figure> */}
 
       <div className="card-body">
         <h2 className="card-title text-2xl font-bold">{name}</h2>

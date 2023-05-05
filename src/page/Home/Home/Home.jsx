@@ -43,10 +43,10 @@ const Home = () => {
               </div>
             </div>
             <div id="slide2" className="carousel-item relative w-full">
-              <div className="w-full h-full bg-[url('image/chicken-tikka.jpg')] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center text-center rounded-md bg-opacity-80">
+              <div className="w-full h-full bg-[url('image/thai-soup.jpg')] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center text-center rounded-md bg-opacity-80">
                 <div className="bg-black px-6 py-4 bg-opacity-60 text-gray-300 absolute inset-0 transition duration-700 rounded-md flex flex-col justify-center items-center">
                   <h1 className="text-yellow-400 text-6xl font-bold">
-                    CHICKEN TIKKA
+                    THAI SOUP
                   </h1>
                   <p className="text-white mt-2 text-lg">
 
@@ -89,7 +89,7 @@ const Home = () => {
             <div id="slide4" className="carousel-item relative w-full">
 
               <div className="w-full h-[400px] bg-[url('image/fried-rice.jpg')] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center text-center rounded-md bg-opacity-80">
-                <div className="w-full h-[400px] bg-[url('image/food3.jpg')] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center text-center rounded-md bg-opacity-80">
+                <div className="w-full h-[400px] bg-[url('image/fried-rice2.jpg')] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center text-center rounded-md bg-opacity-80">
                   <div className="bg-black px-6 py-4 bg-opacity-60 text-gray-300 absolute inset-0 transition duration-700 rounded-md flex flex-col justify-center items-center">
                     <h1 className="text-yellow-400 text-6xl font-bold">
                       FRIED RICE
@@ -105,9 +105,11 @@ const Home = () => {
                 <a href="#slide3" className="btn btn-circle">
                   ❮
                 </a>
+
                 <a href="#slide1" className="btn btn-circle">
                   ❯
                 </a>
+
               </div>
             </div>
 
@@ -122,7 +124,7 @@ const Home = () => {
         </h1>
         <RecipeCategory></RecipeCategory>
       </section>
-      <section className="bg-[url('image/pattern-home.jpg')] bg-no-repeat mt-10">
+      <section>
         <h1 className="text-center text-4xl font-bold py-8 text-red-500">
           OUR CHEFS
           <hr className="w-24 mt-2 border-[3px] mx-auto border-red-500" />
@@ -134,7 +136,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-[url('image/pattern-home.jpg')] bg-no-repeat mt-10">
+      <section >
         <h1 className="text-center text-4xl font-bold py-8 text-red-500">
           NEW RECIPES
           <hr className="w-24 mt-2 border-[3px] mx-auto border-red-500" />

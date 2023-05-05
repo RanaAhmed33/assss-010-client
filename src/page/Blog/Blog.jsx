@@ -77,7 +77,7 @@ const Blog = () => {
       </div>
       <PDFDownloadLink document={<ReactPDF></ReactPDF>} fileName="FAQ">
         <div className="flex justify-center mt-6">
-          {/* <button className="btn bg-slate-600 mt-4 mb-4 ">Download pdf</button> */}
+
           <button className="btn btn-outline">
             DOWNLOAD PDF
           </button>

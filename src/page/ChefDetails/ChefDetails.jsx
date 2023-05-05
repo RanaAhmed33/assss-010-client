@@ -16,9 +16,9 @@ const ChefDetails = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  // console.log(recipes);
+
   return (
-    <section className="bg-[url('image/pattern-home.jpg')] bg-no-repeat">
+    <section >
       <h1 className="text-center text-4xl font-bold py-8 text-red-500">
         OUR CHEF DETAILS
         <hr className="w-24 mt-2 border-[3px] mx-auto border-red-500" />
