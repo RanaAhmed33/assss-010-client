@@ -39,7 +39,7 @@ const Nav = () => {
                 title="Home"
                 className={({ isActive }) => (isActive ? "active" : "default")}
               >
-                HOME
+                <h1> HOME</h1>
               </NavLink>
             </li>
 
