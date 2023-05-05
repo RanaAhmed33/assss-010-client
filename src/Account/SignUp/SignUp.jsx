@@ -59,10 +59,7 @@ const SignUp = () => {
           });
       })
       .catch((error) => {
-        // // setError(error.message);
-        // if (passwordError === error.message) {
-        //   setPasswordError("Email already in use");
-        // }
+
         setPasswordError(error.message);
       });
   };
@@ -92,12 +89,12 @@ const SignUp = () => {
     <section className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-10 lg:px-8 gap-10 flex flex-col items-center justify-center">
       <div className="w-full max-w-md p-8 space-y-3 rounded-xl dark:bg-gray-900 dark:text-gray-100 bg-[#111827]">
         <h1 className="text-2xl font-bold text-center text-gray-300">
-          Sign Up
+          SIGN UP
         </h1>
         <form onSubmit={handleSubmitForm} action="" className="space-y-6 ">
           <div className="space-y-1 text-sm">
             <label htmlFor="name" className="block text-gray-400">
-              Name
+              NAME
             </label>
             <input
               type="text"
@@ -107,12 +104,12 @@ const SignUp = () => {
               onChange={handleName}
               placeholder="Enter Your Email"
               className="w-full px-4 py-3 rounded-md dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100 focus:dark:border-violet-400"
-              // required
+            // required
             />
           </div>
           <div className="space-y-1 text-sm">
             <label htmlFor="email" className="block text-gray-400">
-              Email
+              EMAIL
             </label>
             <input
               type="email"
@@ -127,7 +124,7 @@ const SignUp = () => {
           </div>
           <div className="space-y-1 text-sm relative">
             <label htmlFor="password" className="block text-gray-400">
-              Password
+              PASSWORD
             </label>
             <input
               type={PasswordShow ? "password" : "text"}
@@ -136,7 +133,7 @@ const SignUp = () => {
               value={password}
               onChange={handlePassword}
               placeholder="Password"
-              className="w-full px-4 py-3 rounded-md dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100 focus:dark:border-violet-400 mb-2"
+              className="w-full px-4 py-3 rounded-md dark:border-gray-700 dark:bg-gray-500 dark:text-gray-100 focus:dark:border-violet-400 mb-2"
               required
             />
 
@@ -154,7 +151,7 @@ const SignUp = () => {
           </div>
           <div className="space-y-1 text-sm relative">
             <label htmlFor="password" className="block text-gray-400">
-              Confirm Password
+              CONFIRM PASSWORD
             </label>
             <input
               type={PasswordShow ? "password" : "text"}
@@ -180,7 +177,7 @@ const SignUp = () => {
           </div>
           <div className="space-y-1 text-sm">
             <label htmlFor="email" className="block text-gray-400">
-              Photo URL
+              PHOTO URL
             </label>
             <input
               type="text"
@@ -189,23 +186,23 @@ const SignUp = () => {
               onChange={handleURL}
               placeholder="Enter Your Email"
               className="w-full px-4 py-3 rounded-md dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100 focus:dark:border-violet-400"
-              // required
+            // required
             />
           </div>
           <div className="mt-6 text-center">
             {passwordError && (
-              <span className="text-red-600">{passwordError}</span>
+              <span className="text-yellow-500">{passwordError}</span>
             )}
           </div>
-          <button className="block w-full p-3 text-center rounded-sm text-gray-900 bg-violet-400 ">
-            Sign up
+          <button className="block w-full p-3 text-center rounded-sm text-gray-500 bg-violet-200 ">
+            SIGN UP
           </button>
         </form>
 
         <p className="text-base text-center sm:px-6 dark:text-gray-400 text-slate-300">
-          Already have an account?
+          ALREADY HAVE YOU ACCOUNT?
           <Link className="text-white ml-2 btn-link" to="/login">
-            login
+            LOGIN
           </Link>
         </p>
       </div>

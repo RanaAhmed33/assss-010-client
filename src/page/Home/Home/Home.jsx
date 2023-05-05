@@ -22,14 +22,14 @@ const Home = () => {
         <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-10 lg:px-8 ">
           <div className="carousel w-full">
             <div id="slide1" className="carousel-item relative w-full">
-              <div className="w-full h-[400px] bg-[url('image/burger.jpg')] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center text-center rounded-md bg-opacity-80">
+              <div className="w-full h-[400px] bg-[url('image/burger1.jpg')] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center text-center rounded-md bg-opacity-80">
                 <div className="bg-black px-6 py-4 bg-opacity-60 text-gray-300 absolute inset-0 transition duration-700 rounded-md flex flex-col justify-center items-center">
-                  <h1 className="text-white text-6xl font-bold">
-                    Cheese Burger
+                  <h1 className="text-yellow-400 text-6xl font-bold">
+                    CHEESE BURGER
                   </h1>
-                  <p className="text-white font-bold mt-2 text-lg">
-                    A handful of simple ingredients typify the fresh, vibrant
-                    flavors of Greek cooking.
+                  <p className="text-white  mt-2 text-lg">
+
+                    A CHEF IS A PROFESSIONAL COOK WHO PREPARES AND PRESENTS FOOD IN A VARIETY OF SETTINGS, SUCH AS RESTAURANTS, HOTELS, AND PRIVATE EVENTS.
                   </p>
                 </div>
               </div>
@@ -43,14 +43,14 @@ const Home = () => {
               </div>
             </div>
             <div id="slide2" className="carousel-item relative w-full">
-              <div className="w-full h-full bg-[url('image/food2.jpg')] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center text-center rounded-md bg-opacity-80">
+              <div className="w-full h-full bg-[url('image/chicken-tikka.jpg')] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center text-center rounded-md bg-opacity-80">
                 <div className="bg-black px-6 py-4 bg-opacity-60 text-gray-300 absolute inset-0 transition duration-700 rounded-md flex flex-col justify-center items-center">
-                  <h1 className="text-white text-6xl font-bold">
-                    Chicken Tikka Masala
+                  <h1 className="text-yellow-400 text-6xl font-bold">
+                    CHICKEN TIKKA
                   </h1>
-                  <p className="text-white font-bold mt-2 text-lg">
-                    A handful of simple ingredients typify the fresh, vibrant
-                    flavors of Greek cooking.
+                  <p className="text-white mt-2 text-lg">
+
+                    A CHEF IS A PROFESSIONAL COOK WHO PREPARES AND PRESENTS FOOD IN A VARIETY OF SETTINGS, SUCH AS RESTAURANTS, HOTELS, AND PRIVATE EVENTS.
                   </p>
                 </div>
               </div>
@@ -64,14 +64,14 @@ const Home = () => {
               </div>
             </div>
             <div id="slide3" className="carousel-item relative w-full">
-              <div className="w-full h-[400px] bg-[url('image/food3.jpg')] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center text-center rounded-md bg-opacity-80">
+              <div className="w-full h-[400px] bg-[url('image/baked-chicken.jpg')] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center text-center rounded-md bg-opacity-80">
                 <div className="bg-black px-6 py-4 bg-opacity-60 text-gray-300 absolute inset-0 transition duration-700 rounded-md flex flex-col justify-center items-center">
-                  <h1 className="text-white text-6xl font-bold">
-                    Baked Chicken Breast
+                  <h1 className="text-yellow-400 text-6xl font-bold">
+                    BAKED CHICKEN
                   </h1>
-                  <p className="text-white font-bold mt-2 text-lg">
-                    A handful of simple ingredients typify the fresh, vibrant
-                    flavors of Greek cooking.
+                  <p className="text-white mt-2 text-lg">
+
+                    A CHEF IS A PROFESSIONAL COOK WHO PREPARES AND PRESENTS FOOD IN A VARIETY OF SETTINGS, SUCH AS RESTAURANTS, HOTELS, AND PRIVATE EVENTS.
                   </p>
                 </div>
               </div>
@@ -84,17 +84,19 @@ const Home = () => {
                 </a>
               </div>
             </div>
+
+
             <div id="slide4" className="carousel-item relative w-full">
-              {/* <img src={food1} className="w-full h-[400px] " /> */}
-              <div className="w-full h-[400px] bg-[url('image/food4.jpg')] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center text-center rounded-md bg-opacity-80">
+
+              <div className="w-full h-[400px] bg-[url('image/fried-rice.jpg')] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center text-center rounded-md bg-opacity-80">
                 <div className="w-full h-[400px] bg-[url('image/food3.jpg')] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center text-center rounded-md bg-opacity-80">
                   <div className="bg-black px-6 py-4 bg-opacity-60 text-gray-300 absolute inset-0 transition duration-700 rounded-md flex flex-col justify-center items-center">
-                    <h1 className="text-white text-6xl font-bold">
-                      Baked Chicken Breast
+                    <h1 className="text-yellow-400 text-6xl font-bold">
+                      FRIED RICE
                     </h1>
-                    <p className="text-white font-bold mt-2 text-lg">
-                      A handful of simple ingredients typify the fresh, vibrant
-                      flavors of Greek cooking.
+                    <p className="text-white mt-2 text-lg">
+
+                      A CHEF IS A PROFESSIONAL COOK WHO PREPARES AND PRESENTS FOOD IN A VARIETY OF SETTINGS, SUCH AS RESTAURANTS, HOTELS, AND PRIVATE EVENTS.
                     </p>
                   </div>
                 </div>
@@ -108,18 +110,20 @@ const Home = () => {
                 </a>
               </div>
             </div>
+
+
           </div>
         </div>
       </section>
       <section className="mt-10">
-        <h1 className="text-center text-4xl font-bold py-8">
+        <h1 className="text-center text-4xl font-bold py-8 text-red-500">
           RECIPE COLLECTION
           <hr className="w-24 mt-2 border-[3px] mx-auto border-red-500" />
         </h1>
         <RecipeCategory></RecipeCategory>
       </section>
       <section className="bg-[url('image/pattern-home.jpg')] bg-no-repeat mt-10">
-        <h1 className="text-center text-4xl font-bold py-8">
+        <h1 className="text-center text-4xl font-bold py-8 text-red-500">
           OUR CHEFS
           <hr className="w-24 mt-2 border-[3px] mx-auto border-red-500" />
         </h1>
@@ -131,8 +135,8 @@ const Home = () => {
       </section>
 
       <section className="bg-[url('image/pattern-home.jpg')] bg-no-repeat mt-10">
-        <h1 className="text-center text-4xl font-bold py-8">
-          LATEST RECIPES
+        <h1 className="text-center text-4xl font-bold py-8 text-red-500">
+          NEW RECIPES
           <hr className="w-24 mt-2 border-[3px] mx-auto border-red-500" />
         </h1>
         <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-10 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -146,7 +150,7 @@ const Home = () => {
               onClick={() => setShowAll(!showAll)}
               className="btn btn-outline btn-info"
             >
-              SHOW MORE
+              SEE MORE
             </button>
           </div>
         )}

@@ -40,7 +40,7 @@
           "24 ladyfingers"
         ],
         "cookingMethod": "In a large bowl, beat heavy cream and sugar until stiff peaks form. In a separate bowl, combine espresso and Kahlua. Dip ladyfingers in espresso mixture and layer in a 9x13 inch dish. Spread mascarpone cheese over ladyfingers. Top with whipped cream. Chill for at least 2 hours before serving.",
-        "ratings": 4.9,
+        "ratings": 4.8,
         "img": "https://i.ibb.co/6Xzgzzd/food2.png"
       }
     ],
@@ -51,7 +51,7 @@
   {
     "id": 2,
     "name": "Chef Bob",
-    "experience": 12,
+    "experience": 10,
     "recipes": [
       {
         "recipeName": "Pesto Pasta",
@@ -63,7 +63,7 @@
           "3 cloves garlic"
         ],
         "cookingMethod": "Cook pasta according to package instructions. While pasta is cooking, combine basil, Parmesan cheese, olive oil, and garlic in a food processor and blend until smooth. Drain pasta and toss with pesto sauce. Serve immediately.",
-        "ratings": 4.5,
+        "ratings": 4.6,
         "img": "https://i.ibb.co/F5MmgSb/food3.png"
       },
       {
@@ -75,7 +75,7 @@
           "1/4 cup chopped fresh basil"
         ],
         "cookingMethod": "Preheat oven to 450°F. Spread tomato sauce over pizza crust. Top with mozzarella cheese and chopped basil. Bake for 10-12 minutes or until crust is golden brown.",
-        "ratings": 4.7,
+        "ratings": 4.4,
         "img": "https://i.ibb.co/CBcdvjk/food1.png"
       },
       {

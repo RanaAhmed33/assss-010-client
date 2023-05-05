@@ -24,7 +24,7 @@ const Recipes = ({ menu }) => {
         <img src={img} alt="Foods" />
       </figure>
       <div className="card-body">
-        <h2 className="card-title text-3xl title-text">{recipeName}</h2>
+        <h2 className="card-title text-3xl ">{recipeName}</h2>
         <h1 className="font-bold text-base text-gray-500">Ingredients</h1>
         <span className="ml-6">
           <ul className="list-disc">

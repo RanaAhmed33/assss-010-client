@@ -24,7 +24,7 @@ const LatestRecipesDetails = ({ menu, picture, name }) => {
         </LazyLoad>
 
         <div className="card-body">
-          <h2 className="card-title text-2xl title-text">{recipeName}</h2>
+          <h2 className="card-title text-2xl text-red-500">{recipeName}</h2>
           <div className="space-x-2 text-lg">
             <Rating
               placeholderRating={ratings}
@@ -35,13 +35,12 @@ const LatestRecipesDetails = ({ menu, picture, name }) => {
             ></Rating>
           </div>
           <p className="text-gray-500 text-base">
-            A handful of simple ingredients typify the fresh, vibrant flavors of
-            Greek cooking.
+            A CHEF IS A PROFESSIONAL COOK WHO PREPARES AND PRESENTS FOOD IN A VARIETY OF SETTINGS, SUCH AS RESTAURANTS, HOTELS, AND PRIVATE EVENTS.
           </p>
           <div className="flex gap-2 items-center">
             <img className="rounded-full w-[50px]" src={picture} alt="" />
-            <p className="text-base text-slate-600">
-              By <span className=" text-slate-500 font-bold">{name}</span>
+            <p className="text-base ">
+              By <span className=" font-bold">{name}</span>
             </p>
           </div>
         </div>

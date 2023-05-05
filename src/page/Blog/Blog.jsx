@@ -19,9 +19,9 @@ const Blog = () => {
             className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box"
           >
             <div className="collapse-title text-xl font-medium">
-              <h3>
+              <h2 style={{ color: 'red' }}>
                 Differences between uncontrolled and controlled components.
-              </h3>
+              </h2>
             </div>
             <div className="collapse-content">
               <p className="text-justify">
@@ -34,7 +34,7 @@ const Blog = () => {
             className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box"
           >
             <div className="collapse-title text-xl font-medium">
-              <h3>How to validate React props using PropTypes?</h3>
+              <h2 style={{ color: 'red' }}>How to validate React props using PropTypes?</h2>
             </div>
             <div className="collapse-content">
               <p className="text-justify">
@@ -47,11 +47,11 @@ const Blog = () => {
             className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box"
           >
             <div className="collapse-title text-xl font-medium">
-              <h3>Difference between nodejs and express js.?</h3>
+              <h2 style={{ color: 'red' }}>Difference between nodejs and express js.?</h2>
             </div>
             <div className="collapse-content">
               <p className="text-justify">
-                Node.js is a server-side JavaScript runtime environment, while Express.js is a web framework for Node.js. Node.js provides the foundation and runtime environment, while Express.js adds a layer of abstraction to simplify building web applications, providing features like routing, middleware, and templating.
+                Node.js is a server-side JavaScript runtime environment, while Express.js is a web framework for Node.js. Node.js provides the foundation and runtime environment, while Express.js adds a layer of abstraction to simplify building web applications, providing features like routing, middleware.
               </p>
             </div>
           </div>
@@ -60,9 +60,9 @@ const Blog = () => {
             className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box"
           >
             <div className="collapse-title text-xl font-medium">
-              <h1>
+              <h2 style={{ color: 'red' }}>
                 What is a custom hook, and why will you create a custom hook?
-              </h1>
+              </h2>
             </div>
             <div className="collapse-content">
               <p className="text-justify">
@@ -78,8 +78,8 @@ const Blog = () => {
       <PDFDownloadLink document={<ReactPDF></ReactPDF>} fileName="FAQ">
         <div className="flex justify-center mt-6">
           {/* <button className="btn bg-slate-600 mt-4 mb-4 ">Download pdf</button> */}
-          <button className="btn btn-outline btn-secondary">
-            Download PDF
+          <button className="btn btn-outline">
+            DOWNLOAD PDF
           </button>
         </div>
       </PDFDownloadLink>

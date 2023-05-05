@@ -19,9 +19,9 @@ const ChefDetails = () => {
   // console.log(recipes);
   return (
     <section className="bg-[url('image/pattern-home.jpg')] bg-no-repeat">
-      <h1 className="text-center text-4xl font-bold py-8">
+      <h1 className="text-center text-4xl font-bold py-8 text-red-500">
         OUR CHEF DETAILS
-        <hr className="w-24 mt-2 border-[3px] mx-auto border-orange-500" />
+        <hr className="w-24 mt-2 border-[3px] mx-auto border-red-500" />
       </h1>
       <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-10 lg:px-8 gap-10">
         <div className="card lg:card-side bg-base-100 shadow-xl">
@@ -33,11 +33,11 @@ const ChefDetails = () => {
             />
           </figure>
           <div className="p-6 flex flex-col justify-center items-center text-center w-full lg:w-3/5 space-y-3">
-            <h2 className=" text-4xl font-bold title-text">{name}</h2>
-            <p className=" text-base font-medium text-slate-400 w-full lg:w-4/5 mx-auto">
+            <h2 className=" text-4xl font-bold text-red-500">{name}</h2>
+            <p className=" text-base font-medium w-full lg:w-4/5 mx-auto">
               {description}
             </p>
-            <p className="text-lg text-slate-500 font-bold">
+            <p className="text-lg  font-bold">
               {experience} Year's Experience
             </p>
             <div className="flex items-center justify-center text-center gap-2">
@@ -57,13 +57,13 @@ const ChefDetails = () => {
                   />
                 </svg>
               </span>
-              <span className="text-base font-medium text-slate-500">
+              <span className="text-base font-medium text-slate-700">
                 {likes}
               </span>
             </div>
             <Link to="/">
               {" "}
-              <button className="btn btn-outline">Back To Home</button>
+              <button className="btn btn-outline">BACK TO HOME</button>
             </Link>
           </div>
         </div>
